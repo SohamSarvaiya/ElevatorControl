@@ -33,7 +33,7 @@ class ElevatorRepositoryInstrumentedTest {
     @Test
     fun testElevatorClosesDoorsAfterOpen() = runBlockingTest {
         // Request the elevator to the 2nd floor
-        val flow = elevatorRepository.requestElevator(2)
+        val flow = elevatorRepository.requestElevator(10)
 
         // Collect the emitted states into a list
         val results = flow.toList()

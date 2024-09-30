@@ -27,12 +27,10 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-
         // Set up ViewModel with repository
         val repository = ElevatorRepository()
         val viewModelFactory = ElevatorViewModelFactory(repository)
         val viewModel = ViewModelProvider(this, viewModelFactory)[ElevatorViewModel::class.java]
-
 
         setContent {
             ElevatorControlTheme {
