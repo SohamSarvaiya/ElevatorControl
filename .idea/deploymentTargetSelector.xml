@@ -4,10 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-09-28T06:06:11.556798Z">
+        <DropdownSelection timestamp="2024-09-30T10:47:23.205736Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/sohamsarvaiya/.android/avd/Pixel_3a_API_33_arm64-v8a.avd" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/sohamsarvaiya/.android/avd/Pixel_C_API_33.avd" />
             </handle>
           </Target>
         </DropdownSelection>
@@ -22,7 +22,18 @@
       <SelectionState runConfigName="ElevatorRepositoryInstrumentedTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="useAppContext()">
+      <SelectionState runConfigName="ElevatorRepositoryInstrumentedTest1">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2024-09-30T10:37:49.934235Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=/Users/sohamsarvaiya/.android/avd/Pixel_3a_API_33_arm64-v8a.avd" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="ElevatorRepositoryInstrumentedForFloorTest1">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

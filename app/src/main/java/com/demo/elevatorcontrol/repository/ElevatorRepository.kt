@@ -12,7 +12,7 @@ class ElevatorRepository : ElevatorUseCase {
 
     private var currentFloor: Int = 1
     private var isMoving: Boolean = false
-
+ 
     override suspend fun requestElevator(floor: Int): Flow<ElevatorState> = flow {
         isMoving = true
         emit(ElevatorState(isLoading = true))

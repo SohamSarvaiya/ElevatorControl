@@ -37,7 +37,7 @@ fun ElevatorControlScreen(viewModel: ElevatorViewModel) {
     // State to track the selected floor (default to 1)
     var selectedFloor by remember { mutableStateOf(1) } // Change this to 1 to start with the first floor
 
-    // Define arrow icons (replace with your drawable resources)
+    // Define arrow icons(replace with your drawable resources)
     val upArrow = painterResource(id = R.drawable.up_arrow) // Add your up arrow image in drawable
     val downArrow = painterResource(id = R.drawable.down_arrow) // Add your down arrow image in drawable
 
