@@ -1,5 +1,6 @@
 Elevator Control Demo App 🚀
 
+![eSS](https://github.com/user-attachments/assets/d8e42296-758e-41b5-822c-c482ed36fc69)
 
 This is a demo Elevator Control application built using the latest Jetpack Compose and Clean Architecture principles. The app is designed to simulate a lift control system with the following features:
 
