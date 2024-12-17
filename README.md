@@ -20,13 +20,21 @@ Android Instrumentation Tests with Espresso for UI testing.
 
 💡 Modern Architecture:
 Built with Clean Architecture, ViewModels, and Coroutines.
+
 Implements Repository Pattern for clean and maintainable code.
+
 Tech Stack
+
 Kotlin
+
 Jetpack Compose
+
 StateFlow
+
 Coroutines
+
 ViewModel
+
 JUnit4 & Espresso (for testing)
 
 This app is purely for demonstration purposes and does not control a real-life elevator system. It serves as a foundation to understand state management, UI interactions, and testing in modern Android development.
